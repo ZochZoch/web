@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+	font-family: 'Century Gothic';
+}
+
+.naglowek{
+    font-size: 20px;
+    background-color: #8db580;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+
+.menu{
+    height: 550px;
+    width: 35%;
+    background-color: #C2CFB2;
+    float: left;
+}
+
+.zdjecie{
+    height: 550px;
+    width: 65%;
+    float: left;
+    background-color:white ;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 50%;
+    margin: 25% 0 25% 0;
+}
+
+
+
+.stopka{
+    height: 60px;
+    width: 100%;
+    background-color: #7E8987;
+    color: white;
+    text-align: right;
+    line-height: 60px;
+    float: left;
+}
+
+p{
+    margin-right: 10px;
+}
+
+ul{
+    font-size: large;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a{
+    color: #958273;
+}
+
+
+.przycisk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px outset #958273;
+    background-color: white;
+    height: 10%;
+    margin: 15% 15% 0 15%
+}
