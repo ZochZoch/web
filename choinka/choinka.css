@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color: #6c0503;
+    color: #828c84;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+}
+
+h1{
+    font-size: 70px;
+    font-family: 'Ms Madi', cursive;
+}
+
+table{
+    border: 2px solid #6c0503 ;
+    width: 50%;
+    margin: auto;
+    place-self: center;
+    cursor: crosshair;
+	background-color: #eeeeee;
+}
+
+td, th{
+    border: 2px dotted #6c0503 ;
+    width: 50%;
+    margin: auto;
+    place-self: center;
+    cursor: crosshair;
+}
+
+.lewa{
+    background-color: #828c84;
+    color: #6c0503;
+    height: 500px;
+    width: 25%;
+    float: left;
+    display: grid;   
+}
+
+.srodek{
+    width: 50%;
+    height: 500px;
+    float: left;
+    background-color: #eeeeee;
+    display: grid;
+}
+
+img{
+    place-self: center;
+    cursor: pointer;
+}
+
+.prawa{
+    width: 25%;
+    height: 500px;
+    float:left ;
+    background-color: #828c84;
+    display: grid;
+}
+
+p{
+    background-color: #eeeeee;
+    color: #6c0503;
+    border: 2px solid #6c0503;
+    place-self: center;
+    width: 300px;
+    cursor: help;
+}
+
+footer{
+    background-color: #6c0503;
+    color: #eeeeee;
+    text-align: right;
+    height: 100px;
+    float: left;
+    width: 100%;
+    line-height: 100px;
+}
+
+h2{
+    margin-right: 50px;
+}
+
+p{
+	font-size: 30px;
+}
