@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+	font-family: 'Playfair Display', serif;
+}
+
+body{
+	height: 100%;
+}
+
+.naglowek{
+    font-size: 20px;
+    background-color: #20073a;
+    height: 200px;
+    text-align: center;
+    line-height: 100px;
+    color: #d1c9b1;
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    height: 700px;
+    width: 35%;
+    background-color: #d1bc7c;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zdjecie{
+    height: 700px;
+    width: 65%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    background-color: #d1c9b1;
+}
+
+.stopka{
+    height: 69px;
+    width: 100%;
+    background-color: #6d1950;
+    color: #d1c9b1;
+    text-align: right;
+    line-height: 60px;
+    float: left;
+}
+
+p{
+    margin-right: 10px;
+}
