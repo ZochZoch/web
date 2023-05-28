@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    font-family: 'Playfair', serif;
+}
+
+body{
+    background-color: #eddcce;
+
+}
+
+header{
+    background-color: #F9F3EE;
+    color: #c592b8;
+    height: 200px;
+    text-align: center;
+    line-height: 120px;
+    margin: auto;
+    width: 50%;
+}
+
+h1{
+    font-size: 1000%;
+}
+
+
+.lewa{
+    background-color: #eddcce;
+    height: 850px;
+    width: 25%;
+    float: left;
+    display: grid; 
+    margin-top: -200px;  
+}
+.prawa{
+    background-color: #eddcce;
+    height: 850px;
+    width: 25%;
+    float: right;
+    display: grid;   
+    margin-top: -200px;
+}
+
+.srodek{
+    width: 50%;
+    height: 669px;
+    float: left;
+    background-color: #F9F3EE;
+    color: #637c75;
+    display: grid;
+    text-align: center;
+    font-size: 350%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    place-self: center;
+    width: 60%;
+}
+
+footer{
+    background-color: #F9F3EE;
+    color: #a9cac6;
+    text-align: right;
+    height: 100px;
+    margin-left: 25%;
+    float: left;
+    line-height: 100px;
+    width: 50%;
+}
+
+button{
+    float: left;
+    line-height: 98px;
+    font-size: 250%;
+    margin: auto; 
+    border: 0;
+    background-color: #F9F3EE;
+    color: #c592b8;
+}
+
