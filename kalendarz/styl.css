@@ -1,0 +1,41 @@
+*{
+    font-family: 'Young Serif', serif;
+}
+
+body{
+    background-color: #CEE6F3;
+    margin-left: 15%;
+    height: 95vh;
+}
+
+div{
+    text-align: center;
+    height: 75%;
+    width: 25%;
+    float: left;
+    margin-top: 13vh;
+}
+
+.lewy{
+    background-color: #DFA878;
+    margin-left: 40px;
+}
+
+.srodek{
+    background-color: #BA704F;
+    margin-left: 40px;
+}
+
+.prawy{
+    background-color: #6C3428;
+    margin-left: 40px;
+}
+
+table{
+    margin: auto;
+    text-align: center;
+}
+
+td{
+    font-weight: bold;
+}
