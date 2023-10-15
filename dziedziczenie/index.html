@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+    <title>Dziedziczenie</title>
+	<link rel="stylesheet" href="styl.css" media="all">
+</head>
+<body>
+    <div class="lewy">
+        <input class="troj" type="button" value="zielony" onclick="zielony()">
+        <input class="troj" type="button" value="niebieski" onclick="niebieski()">
+        <input class="troj" type="button" value="czerwony" onclick="czerwony()">
+        <input class="troj" type="button" value="żółty" onclick="zolty()"></br>
+        <div id="trojkat"></div>
+    </div>
+    <div class="prawy">
+    <div id="kwiatek">
+        <input class="kwia" type="button" value="Płatki">
+        <div class="pla" id="pl1"></div>
+        <div class="pla" id="pl2"></div>
+        <div class="pla" id="pl3"></div>
+        <div class="sro"></div>
+        <div class="pla" id="pl4"></div>
+        <div class="pla" id="pl5"></div>
+    </div>
+    </div>
+    <script>
+        function zielony(){
+            document.getElementById("trojkat").style.backgroundColor = "green";
+        }
+        function niebieski(){
+            document.getElementById("trojkat").style.backgroundColor = "blue";
+        }
+        function zolty(){
+            document.getElementById("trojkat").style.backgroundColor = "yellow";
+        }
+        function czerwony(){
+            document.getElementById("trojkat").style.backgroundColor = "red";
+        }
+    </script>
+    </div>
+</body>
+</html>
